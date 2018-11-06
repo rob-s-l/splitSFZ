@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		14102FF1218DBBFC0035EE9F /* writeSFZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14102FF0218DBBFC0035EE9F /* writeSFZ.swift */; };
-		14B20DB3218BABED0072F105 /* tenor in Resources */ = {isa = PBXBuildFile; fileRef = 14B20DB2218BABED0072F105 /* tenor */; };
-		14B20DB5218BAC050072F105 /* Tenor_Sax_Soft.sfz in Resources */ = {isa = PBXBuildFile; fileRef = 14B20DB4218BAC050072F105 /* Tenor_Sax_Soft.sfz */; };
 		14F19078218B6CAA00FA018E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F19077218B6CAA00FA018E /* AppDelegate.swift */; };
 		14F1907A218B6CAB00FA018E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F19079218B6CAB00FA018E /* ViewController.swift */; };
 		14F1907C218B6CC100FA018E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F1907B218B6CC100FA018E /* Assets.xcassets */; };
@@ -20,8 +18,6 @@
 
 /* Begin PBXFileReference section */
 		14102FF0218DBBFC0035EE9F /* writeSFZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeSFZ.swift; sourceTree = "<group>"; };
-		14B20DB2218BABED0072F105 /* tenor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tenor; sourceTree = SOURCE_ROOT; };
-		14B20DB4218BAC050072F105 /* Tenor_Sax_Soft.sfz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tenor_Sax_Soft.sfz; sourceTree = SOURCE_ROOT; };
 		14F19074218B6CAA00FA018E /* splitSFZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splitSFZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F19077218B6CAA00FA018E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F19079218B6CAB00FA018E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,8 +43,6 @@
 		14F1906B218B6CAA00FA018E = {
 			isa = PBXGroup;
 			children = (
-				14B20DB4218BAC050072F105 /* Tenor_Sax_Soft.sfz */,
-				14B20DB2218BABED0072F105 /* tenor */,
 				14F19076218B6CAA00FA018E /* splitSFZ */,
 				14F19075218B6CAA00FA018E /* Products */,
 			);
@@ -141,8 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B20DB3218BABED0072F105 /* tenor in Resources */,
-				14B20DB5218BAC050072F105 /* Tenor_Sax_Soft.sfz in Resources */,
 				14F1907C218B6CC100FA018E /* Assets.xcassets in Resources */,
 				14F1907F218B6CC200FA018E /* Main.storyboard in Resources */,
 			);
