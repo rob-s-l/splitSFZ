@@ -33,10 +33,10 @@ class regionData {
         if label != "" {
             strings.append("region_label="+label)
         }
-        if lovel > 0  && hivel > 0 {
+        if lovel >= 0  && hivel >= 0 {
             strings.append(String(format:"lovel=%i hivel=%i",lovel, hivel))
         }
-        if lokey > 0 && hikey > 0 {
+        if lokey >= 0 && hikey >= 0 {
             strings.append(String(format:"lokey=%i hikey=%i",lokey, hikey)
             )
         }
